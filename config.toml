@@ -8,7 +8,7 @@ parallel-jobs = 1
 
 [YouTube]
 build-mode = "both"
-excluded-patches = ""
+excluded-patches = "'Copy video URL' 'Downloads' 'Seekbar' 'Swipe controls' 'Disable auto captions' 'Navigation buttons' 'Change form factor' 'Hide Shorts components' 'Hide timestamp' 'Miniplayer' 'Custom player overlay opacity' 'Return YouTube Dislike' 'Wide search bar' 'Spoof app version' 'Change start page' 'Alternative thumbnails' 'Announcements' 'Always repeat' 'Enable debugging' 'GmsCore support' 'Spoof video streams' 'Playback speed'"
 included-patches = ""
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
@@ -21,6 +21,7 @@ arch = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
+enabled = false
 
 [GooglePhotos]
 build-mode = "both"
@@ -28,10 +29,12 @@ arch = "both"
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
 uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
+enabled = false
 
 [Spotify]
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.spotify.music"
+enabled = false
 
 # https://github.com/j-hc/revanced-magisk-module/issues/554
 [Music-Extended]
