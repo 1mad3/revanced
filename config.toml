@@ -7,7 +7,7 @@ parallel-jobs = 1
 # you can use rvmm-config-gen to generate a config
 
 [YouTube]
-build-mode = "both"
+build-mode = "module"
 excluded-patches = "'Copy video URL' 'Downloads' 'Seekbar' 'Swipe controls' 'Disable auto captions' 'Navigation buttons' 'Change form factor' 'Hide Shorts components' 'Hide timestamp' 'Miniplayer' 'Custom player overlay opacity' 'Return YouTube Dislike' 'Wide search bar' 'Spoof app version' 'Change start page' 'Alternative thumbnails' 'Announcements' 'Always repeat' 'Enable debugging' 'GmsCore support' 'Spoof video streams' 'Playback speed'"
 included-patches = ""
 version = "auto"
